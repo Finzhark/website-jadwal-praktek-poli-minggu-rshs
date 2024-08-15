@@ -1,10 +1,101 @@
-body {
-  height: 100h;
+* {
+  box-sizing: border-box;
 }
 
-.jadwal {
-  height: fit-content;
-  width: 50%;
-  margin: 0 auto;
-  display: block;
+html {
+  scroll-behavior: smooth;
+}
+
+body, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff7e3;
+  color: #333;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  padding: 30px 30px;
+  text-align: center;
+}
+
+.logo-left, .logo-right {
+  width: 10vw;
+}
+
+header .hospital-name {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.schedule {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.schedule h2 {
+  margin-top: 0;
+  color: #4CAF50;
+}
+
+.doctor {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.doctor img {
+  /* width: 80px; */
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.info h3 {
+  margin: 0 0 5px;
+  font-size: 1.1em;
+}
+
+.info p {
+  margin: 0;
+  color: #555;
+}
+
+footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: space-evenly;
+  }
+  
+  .logo-left, .logo-right {
+    width: 15vw;
+  } 
 }
