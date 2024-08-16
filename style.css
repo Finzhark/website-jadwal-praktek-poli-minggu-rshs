@@ -119,8 +119,12 @@ footer {
     width: 15vw;
   } 
 
-  .poly-schedule img {
-    width: 80%;
+  .poly-schedule {
+    width: 83%;
+  }
+
+  .doctor img {
+    width: 30px;
   }
 }
 
