@@ -112,7 +112,7 @@ footer {
 
 @media screen and (max-width: 480px) {
   header {
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   
   .logo-left, .logo-right {
