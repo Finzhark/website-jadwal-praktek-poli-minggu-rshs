@@ -67,7 +67,7 @@ main {
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 0 10px 20px 10px;
-  width: 50vw;
+  width: 80vw;
 }
 
 .poly-schedule h2 {
@@ -84,10 +84,11 @@ main {
 
 .doctor img {
   /* width: 80px; */
-  height: 25vh;
-  border-radius: 20%;
-  margin-right: 15px;
-  border: 4px solid black;
+  height: 20vh;
+  border-radius: 30%;
+  margin: 0 15px;
+  border: 4px solid #4CAF50;
+  object-fit: cover;
 }
 
 .info h3 {
@@ -110,24 +111,6 @@ footer {
   bottom: 0;
 }
 
-@media screen and (max-width: 480px) {
-  header {
-    justify-content: space-between;
-  }
-  
-  .logo-left, .logo-right {
-    width: 15vw;
-  } 
-
-  .poly-schedule {
-    width: 83%;
-  }
-
-  .doctor img {
-    width: 30px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   header {
     justify-content: space-evenly;
@@ -138,6 +121,24 @@ footer {
   } 
 
   .poly-schedule {
-    width: 80%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    justify-content: space-between;
+  }
+  
+  .logo-left, .logo-right {
+    width: 15vw;
+  } 
+
+  .poly-schedule {
+    width: 90%;
+  }
+
+  .doctor img {
+    width: 30px;
   }
 }
