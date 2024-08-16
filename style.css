@@ -110,11 +110,25 @@ footer {
   bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   header {
     justify-content: space-evenly;
   }
   
+  .logo-left, .logo-right {
+    width: 15vw;
+  } 
+
+  .poly-schedule img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: space-evenly;
+  }
+
   .logo-left, .logo-right {
     width: 15vw;
   } 
