@@ -14,6 +14,9 @@ body, p {
 body {
   font-family: Arial, sans-serif;
   background-color: #fff7e3;
+  background-image: url(assets/images/buildings/hospital-building.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #333;
 }
 
@@ -54,11 +57,11 @@ header .hospital-name {
 
 main {
   padding: 20px;
+  /* height: 100px; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center; 
-  background-image: url();
+  justify-content: space-around; 
 }
 
 .poly-schedule {
@@ -67,7 +70,8 @@ main {
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 0 10px 20px 10px;
-  width: 80vw;
+  width: 40vw;
+  height: 40vh;
 }
 
 .poly-schedule h2 {
@@ -83,13 +87,14 @@ main {
 }
 
 .doctor img {
-  /* width: 80px; */
   height: 20vh;
-  border-radius: 30%;
+  border-radius: 50%;
   margin: 0 15px;
   border: 4px solid #4CAF50;
   object-fit: cover;
+
 }
+
 
 .info h3 {
   margin: 0 0 5px;
@@ -136,9 +141,15 @@ footer {
 
   .poly-schedule {
     width: 90%;
+    min-height: 50vh;
+  }
+    
+  .doctor-info h3 {
+    margin: 5px 0;
+    font-size: 18px;
   }
 
-  .doctor img {
-    width: 30px;
+  .doctor-info p {
+    font-size: 12px;
   }
 }
