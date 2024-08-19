@@ -18,6 +18,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #333;
+  background-attachment: fixed;
 }
 
 header {
@@ -162,5 +163,6 @@ footer {
     background-image: url(assets/images/buildings/hospital-building-480.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   }
 }
